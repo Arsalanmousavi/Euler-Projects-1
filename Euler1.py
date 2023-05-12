@@ -1,8 +1,8 @@
 multiples_list = []
 
-for n in range(0, 1000):
-    if n % 3 == 0 or n % 5 == 0:
-        multiples_list.append(n)
+for i in range(0, 1000):
+    if i % 3 == 0 or i % 5 == 0:
+        multiples_list.append(i)
 
 print(multiples_list)
 print(sum(multiples_list))
